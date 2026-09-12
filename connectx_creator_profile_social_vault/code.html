@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "secondary-fixed-dim": "#adc6ff", "on-tertiary-container": "#ffdde7", "inverse-primary": "#732ee4", "surface-variant": "#33343c", "on-background": "#e2e2ec", "surface-container-lowest": "#0c0e15", "on-tertiary-fixed": "#3e0022", "primary-container": "#7c3aed", "primary": "#d2bbff", "secondary-fixed": "#d8e2ff", "tertiary-container": "#bf2076", "on-secondary-container": "#e6ecff", "surface-container": "#1d1f27", "surface-container-high": "#282a31", "on-tertiary": "#640039", "on-secondary-fixed": "#001a42", "tertiary-fixed": "#ffd9e4", "surface-tint": "#d2bbff", "on-secondary": "#002e6a", "surface-bright": "#373941", "on-error-container": "#ffdad6", "secondary": "#adc6ff", "on-primary-fixed-variant": "#5a00c6", "on-surface": "#e2e2ec", "on-primary-fixed": "#25005a", "tertiary": "#ffb0cd", "on-tertiary-fixed-variant": "#8c0053", "error-container": "#93000a", "on-surface-variant": "#ccc3d8", "background": "#11131a", "outline": "#958da1", "error": "#ffb4ab", "surface-container-highest": "#33343c", "secondary-container": "#0566d9", "tertiary-fixed-dim": "#ffb0cd", "inverse-on-surface": "#2e3038", "surface-dim": "#11131a", "primary-fixed": "#eaddff", "on-secondary-fixed-variant": "#004395", "inverse-surface": "#e2e2ec", "primary-fixed-dim": "#d2bbff", "on-primary-container": "#ede0ff", "on-error": "#690005", "on-primary": "#3f008e", "surface-container-low": "#191b23", "outline-variant": "#4a4455", "surface": "#11131a" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "gutter": "1.25rem", "gutter-mobile": "0.75rem", "space-sm": "0.5rem", "space-lg": "1.5rem", "margin": "2rem", "margin-mobile": "1rem", "space-md": "1rem", "space-xl": "2rem", "space-xs": "0.25rem" }, "fontFamily": { "headline-xl": [ "Plus Jakarta Sans" ], "headline-sm": [ "Plus Jakarta Sans" ], "body-lg": [ "Inter" ], "headline-lg": [ "Plus Jakarta Sans" ], "label-md": [ "Plus Jakarta Sans" ], "label-lg": [ "Plus Jakarta Sans" ], "label-sm": [ "Plus Jakarta Sans" ], "headline-md": [ "Plus Jakarta Sans" ], "body-sm": [ "Inter" ], "headline-xl-mobile": [ "Plus Jakarta Sans" ], "display-lg": [ "Plus Jakarta Sans" ], "display-lg-mobile": [ "Plus Jakarta Sans" ], "body-md": [ "Inter" ] }, "fontSize": { "headline-xl": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "headline-sm": [ "16px", { "lineHeight": "24px", "letterSpacing": "0", "fontWeight": "600" } ], "body-lg": [ "16px", { "lineHeight": "26px", "letterSpacing": "-0.005em", "fontWeight": "400" } ], "headline-lg": [ "24px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "700" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" } ], "label-lg": [ "14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" } ], "label-sm": [ "10px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" } ], "headline-md": [ "20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "body-sm": [ "12px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "400" } ], "headline-xl-mobile": [ "26px", { "lineHeight": "34px", "letterSpacing": "-0.015em", "fontWeight": "700" } ], "display-lg": [ "48px", { "lineHeight": "56px", "letterSpacing": "-0.03em", "fontWeight": "800" } ], "display-lg-mobile": [ "32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "800" } ], "body-md": [ "14px", { "lineHeight": "22px", "letterSpacing": "0", "fontWeight": "400" } ] } } } };</script></head><body class="bg-surface font-body-md text-on-surface min-h-screen bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(124,58,237,0.12),rgba(17,19,26,0))] selection:bg-primary selection:text-on-primary"><aside class="fixed left-0 top-0 h-full w-20 bg-surface-container-low/90 backdrop-blur-2xl z-50 flex flex-col items-center py-space-md shadow-[0_1px_8px_rgba(0,0,0,0.3)]"><div class="flex items-center justify-center mb-space-lg"><a class="flex items-center justify-center p-space-xs transition-transform hover:scale-105" data-path="home" href="#"><img alt="ConnectX Brand Mark" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UulgKsOQF7jBsx6I94Dkx_mIKV73HSNwPpdY9_B5Ls0ZcgRv5lxZbrAzfz3YWiL0XR20G-InK2HQNqPQmWBYglCuDN24Byz_Bo2UksZ2QLxTg-f_wmDMuTqDkw0NE3Ow5oSZB9koQ7AwKv31Jvy7JTMBTFzFq5dYLVx2f1OzBrw61-Qlxf_YC9sl2EiQfrlcSeQd6h1YrW70BKwpH3SYC70YPLc2v1Tq8AQ75mxML0fEYpX1HGO0IcivFv"/></a></div><nav class="flex-1 flex flex-col items-center gap-space-sm w-full px-space-xs" data-active-classes="bg-primary-container text-on-primary-container shadow-[0_0_16px_rgba(124,58,237,0.45)]"><a class="relative flex items-center justify-center w-12 h-12 rounded-full text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group" data-path="home" href="#" title="Home"><span class="material-symbols-outlined text-[24px]">home</span></a><a class="relative flex items-center justify-center w-12 h-12 rounded-full text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group" data-path="explore" href="#" title="Explore"><span class="material-symbols-outlined text-[24px]">explore</span></a><a class="relative flex items-center justify-center w-12 h-12 my-space-xs rounded-full bg-gradient-to-tr from-primary-container to-secondary-container text-on-primary-container shadow-[0_0_16px_rgba(124,58,237,0.35)] hover:scale-105 transition-all group" data-path="create" href="#" title="Create"><span class="material-symbols-outlined text-[26px]">add</span></a><a class="relative flex items-center justify-center w-12 h-12 rounded-full text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group" data-path="chat" href="#" title="Chat"><span class="material-symbols-outlined text-[24px]">chat_bubble</span></a><a class="relative flex items-center justify-center w-12 h-12 rounded-full text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group" data-path="spaces" href="#" title="Spaces"><span class="material-symbols-outlined text-[24px]">groups</span></a><a class="relative flex items-center justify-center w-12 h-12 rounded-full text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group" data-path="files" href="#" title="Files"><span class="material-symbols-outlined text-[24px]">folder_shared</span></a><a aria-current="page" class="relative flex items-center justify-center w-12 h-12 rounded-full transition-all group bg-primary-container text-on-primary-container shadow-[0_0_16px_rgba(124,58,237,0.45)]" data-path="profile" href="#" title="Profile"><span class="material-symbols-outlined text-[24px]">person</span></a></nav><div class="flex flex-col items-center gap-space-sm mt-auto pt-space-sm"><a class="flex items-center justify-center w-12 h-12 rounded-full text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="settings" href="#" title="Settings"><span class="material-symbols-outlined text-[22px]">settings</span></a></div></aside><div class="pl-20"><header class="fixed top-0 left-20 right-0 h-16 bg-surface-container-lowest/80 backdrop-blur-2xl z-40 shadow-[0_1px_8px_rgba(0,0,0,0.25)]"><div class="h-16 w-full px-space-xl flex items-center justify-between gap-space-md"><div class="flex-1 max-w-2xl"><div class="relative flex items-center w-full"><span class="material-symbols-outlined absolute left-space-md text-on-surface-variant text-[20px] pointer-events-none">search</span><input class="w-full h-11 pl-11 pr-space-md bg-surface-container-high/80 rounded-full font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-primary focus:bg-surface-container-highest transition-all" placeholder="Search people, posts, files, spaces, or ask AI..." type="text"/></div></div><div class="flex items-center gap-space-sm"><button class="flex items-center gap-space-xs h-10 px-space-md rounded-full bg-gradient-to-r from-primary-container/20 to-tertiary-container/20 hover:from-primary-container/30 hover:to-tertiary-container/30 text-primary font-label-md text-label-md transition-all shadow-[0_0_12px_rgba(124,58,237,0.2)]" type="button"><span class="material-symbols-outlined text-[18px] text-primary">auto_awesome</span><span class="hidden sm:inline font-label-md text-label-md">Ask AI</span></button><a class="relative flex items-center justify-center w-10 h-10 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-all" data-path="chat" href="#"><span class="material-symbols-outlined text-[20px]">send</span></a><button class="relative flex items-center justify-center w-10 h-10 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-all" type="button"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-2 right-2 w-2 h-2 rounded-full bg-tertiary"></span></button><div class="flex items-center pl-space-xs"><a class="relative flex items-center justify-center rounded-full ring-2 ring-primary/30 hover:ring-primary transition-all" data-path="profile" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGc9K9yK8xmRsqh8bEwA4GYJx18U0DkBqy6dWwmTNNYpHI-4mLwbwv3QRRtF_jAtIOsKFpwYs3Oxk_60yPiu4B0_GcR-vsQkTSIsY8vrECr-urhIPlUFkvy1q-rKJBGcmjap34XzejyUF4KsDotsgT077kuO86x-a3UlIK6A3T8xkfAN-hBMm7TyBau9pLntFqTIIkptr1g-JcBJUto2QRbwyGXii6aGWQvv83LGNIZVzuy8U-O8QzhQ"/></a></div></div></div></header><main class="relative pt-16 w-full min-h-screen bg-transparent"><div class="flex flex-col w-full">
+<!-- Top Profile Hero Banner Area -->
+<div class="relative w-full">
+<!-- Cinematic Cover Banner with Ambient Lights -->
+<div class="relative h-64 sm:h-72 md:h-80 w-full overflow-hidden bg-surface-container-lowest">
+<div class="w-full h-full bg-cover bg-center opacity-85 transform scale-105 transition-transform duration-1000 ease-out hover:scale-100" data-alt="Futuristic architectural interior bathed in glowing violet and cyan neon luminescence, concrete brutalist surfaces meeting iridescent glass prisms, deep moody shadows and cyber aesthetic, cinematic 8k ultra-detailed" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDR6ZX7yLr4_HrcZmpA5KzotRdirfW9gGhFBsOGL7z03RdddvM7VkQswj9CIzFrNmalmn5keCPSv9EoQF3CDOppv6AauJkPeBkiF802nDPX3mbfbzMx4bp2z5OGFeDtPCVU6sEJFKW0Egx8PLTsSWWKM3xyW3qroUMNjUoNuHZO4xGdBbeXEdLgabbqRhXh3_llyImdIZH9bL5BmVxsu-a81157_0r9q06LSIekpadHvR7eNXps4pR00A')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-b from-background/30 via-transparent to-background"></div>
+<div class="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-primary-container/20 blur-3xl pointer-events-none"></div>
+<div class="absolute top-1/2 left-1/4 w-72 h-72 rounded-full bg-secondary-container/15 blur-3xl pointer-events-none"></div>
+<!-- Quick Action Pill Overlays (Top Right of Cover) -->
+<div class="absolute top-space-md right-space-md sm:right-space-xl flex items-center gap-space-xs z-10">
+<button class="flex items-center gap-space-xs px-space-md h-9 rounded-full bg-surface-container-low/75 backdrop-blur-xl text-on-surface hover:bg-surface-container text-label-md font-label-md transition-all shadow-md" type="button">
+<span class="material-symbols-outlined text-[16px] text-tertiary">photo_camera</span>
+<span class="hidden sm:inline">Change Art</span>
+</button>
+<button class="w-9 h-9 rounded-full bg-surface-container-low/75 backdrop-blur-xl flex items-center justify-center text-on-surface hover:bg-surface-container text-label-md transition-all shadow-md" title="Banner Settings" type="button">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+</button>
+</div>
+</div>
+<!-- Identity & Quick Profile Stats Island -->
+<div class="max-w-[1440px] mx-auto px-space-md sm:px-space-xl w-full">
+<div class="relative flex flex-col md:flex-row items-start md:items-end justify-between gap-space-md -mt-20 sm:-mt-24 pb-space-lg">
+<!-- Left: Avatar & Identity Details -->
+<div class="flex flex-col sm:flex-row items-start sm:items-end gap-space-lg w-full md:w-auto">
+<!-- Avatar with Gradient Aura Ring -->
+<div class="relative group">
+<div class="w-28 h-28 sm:w-36 sm:h-36 rounded-full p-[3px] bg-gradient-to-tr from-primary-container via-tertiary-container to-secondary-container shadow-[0_0_32px_rgba(124,58,237,0.35)]">
+<div class="w-full h-full rounded-full overflow-hidden bg-surface-container-low">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Intense high-definition portrait of a stylish female digital architect with short sleek dark hair, neon violet reflections, confident and artistic look in a futuristic cyber studio setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbzTHiBuTkcFsJI586Ah5PjdtLnpwdbPfnXCPBTVuNvvJdikBlXwMv7Vvf_7ZBgaQ6UjOgGb5ADnrnQCwuhDRZ9egenpjtHN49f3xJAO2pWSMSJymJSK2LsdVV477RvynfuDx_aeQkEwprc1MNiXYpMK3eyKB-WBAIzt7ON1F6pu2tO1Kn25CpDMURYCT2cqmRWXkJ82v3okYdb1xIS5Kjb3e16AGDTxI4Lx3cV6h04rWf-DNS8NW2kw"/>
+</div>
+</div>
+<!-- Online / Spatial Node Indicator -->
+<span class="absolute bottom-2 right-2 w-5 h-5 rounded-full bg-surface-container-lowest flex items-center justify-center shadow-lg">
+<span class="w-3.5 h-3.5 rounded-full bg-emerald-400 animate-pulse"></span>
+</span>
+</div>
+<!-- User Info Meta -->
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs flex-wrap">
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">Emily Chen</h1>
+<span class="flex items-center text-primary" title="Verified Creator &amp; Core Architect">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">verified</span>
+</span>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">she/her</span>
+</div>
+<div class="flex items-center gap-space-sm text-on-surface-variant font-body-sm text-body-sm mt-0.5">
+<span class="font-medium text-primary-fixed-dim">@emily_designs</span>
+<span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+<span class="text-on-surface-variant">Spatial Systems Architect</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface mt-space-xs max-w-xl">
+              Designing sensory interfaces &amp; spatial computing systems ✨ Lead at <span class="text-primary font-semibold">ConnectX Core</span> • Coffee, synthesizers &amp; 3D generative art.
+            </p>
+<!-- Links and Locations -->
+<div class="flex items-center flex-wrap gap-x-space-md gap-y-space-xs mt-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">distance</span>
+<span>Tokyo / SF</span>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-primary">link</span>
+<a class="text-primary hover:underline font-label-md" href="#">emily.xyz</a>
+</div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-tertiary">code</span>
+<a class="hover:text-on-surface transition-colors" href="#">github.com/emilychen</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Right: Primary Action Buttons -->
+<div class="flex items-center gap-space-xs sm:gap-space-sm w-full sm:w-auto self-stretch sm:self-auto justify-start sm:justify-end mt-space-xs md:mt-0">
+<button class="flex-1 sm:flex-initial flex items-center justify-center gap-space-xs px-space-lg h-10 rounded-full bg-gradient-to-r from-primary-container to-secondary-container hover:opacity-95 text-on-primary-container font-label-lg text-label-lg shadow-[0_0_20px_rgba(124,58,237,0.35)] transition-all active:scale-95" type="button">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+<span>Edit Profile</span>
+</button>
+<button class="w-10 h-10 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface flex items-center justify-center transition-all shadow-sm" title="Share Identity QR &amp; Link" type="button">
+<span class="material-symbols-outlined text-[20px]">ios_share</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-md h-10 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-all shadow-sm" type="button">
+<span class="material-symbols-outlined text-[18px] text-tertiary">auto_videocam</span>
+<span class="hidden sm:inline">Memories Vault</span>
+</button>
+</div>
+</div>
+<!-- Quick Metrics Counters Strip -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-sm py-space-md bg-surface-container-low/70 backdrop-blur-xl rounded-xl px-space-lg shadow-lg">
+<div class="flex flex-col">
+<span class="font-headline-lg text-headline-lg text-on-surface">1,482</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Posts &amp; Drops</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-lg text-headline-lg text-primary">48.2k</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Followers</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-lg text-headline-lg text-on-surface">612</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Following</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="font-headline-lg text-headline-lg text-secondary">182</span>
+<span class="px-1.5 py-0.5 rounded bg-secondary-container/30 text-secondary font-label-sm text-label-sm font-bold">Encrypted</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Shared Files</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Profile Secondary Ribbon: Interactive Highlights & Stories Carousel -->
+<div class="max-w-[1440px] mx-auto px-space-md sm:px-space-xl w-full mt-space-lg">
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">Featured Highlights</span>
+<span class="font-label-sm text-label-sm text-primary cursor-pointer hover:underline">Customize</span>
+</div>
+<div class="flex items-center gap-space-md overflow-x-auto pb-space-sm pt-space-xs scrollbar-none">
+<!-- Highlight 1: Spatial Audio UI -->
+<div class="flex flex-col items-center gap-space-xs group cursor-pointer flex-shrink-0">
+<div class="w-16 h-16 rounded-full p-[2px] bg-gradient-to-tr from-primary-container via-primary to-secondary shadow-md group-hover:scale-105 transition-all">
+<div class="w-full h-full rounded-full overflow-hidden bg-surface-container-high flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="Abstract 3D holographic sound wave ribbon swirling in void space, luminous purple and cyan reflections" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsMmrjAAl89mlWD2jf8HH2NgEsVycJ5iLdv3e6UHBKfegr-eyy3-l-GsoSe91Nwi_QRPfdmd5e3_LBZCe6eOOgS43IsKeBVa3GxSYXkrN60k_GB3JTORiqZ9YKWXZVZ67TfFKkaPzEjJn3WMMrVZEf4mjZIiqEREJSaTQePo5yhC8o9V1kmbydXDhBetDHsRCLUPwD3kozy1UGr5K5HC89t90VHsiclNTP1fVC4WSLVr50zQwDLTDdGw"/>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface group-hover:text-primary transition-colors max-w-[80px] truncate text-center">Spatial Audio</span>
+</div>
+<!-- Highlight 2: Tokyo Neon -->
+<div class="flex flex-col items-center gap-space-xs group cursor-pointer flex-shrink-0">
+<div class="w-16 h-16 rounded-full p-[2px] bg-gradient-to-tr from-tertiary via-tertiary-container to-primary-container shadow-md group-hover:scale-105 transition-all">
+<div class="w-full h-full rounded-full overflow-hidden bg-surface-container-high flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="Night cityscape of Shibuya crossing with reflective wet asphalt and saturated magenta and cyan billboards" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzXEMftWKJzFB8fhMpaxVQRiH1Hs1GdEQKzpN7CjPYPpK2fjd_P1oi8mxCAsMULTI7AJY3RlTQimqGtHPwOzOoSPbsMhG564W0XFOq4HFNEa7rLTpg1U99Bbk1FK9wMyxHpVMGPmJQ15QF6xxOOqRQLeAiaW__KNtSl_v23K064yi_ai-bkk0-Z1ATHWyOlTt6z4nk1nKHlC7KghLkojXJXJjpLMnNBqowYDndY6tJJqW9kha4z5umag"/>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface group-hover:text-primary transition-colors max-w-[80px] truncate text-center">Tokyo Neon</span>
+</div>
+<!-- Highlight 3: Design Tokens Repo -->
+<div class="flex flex-col items-center gap-space-xs group cursor-pointer flex-shrink-0">
+<div class="w-16 h-16 rounded-full p-[2px] bg-gradient-to-tr from-secondary to-primary shadow-md group-hover:scale-105 transition-all">
+<div class="w-full h-full rounded-full overflow-hidden bg-surface-container-high flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="Clean futuristic code editor view showing glowing typography tokens and design variable trees on sleek matte black terminal" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNvA0tT-a51OLkTddkvA2trL-h1qC5qQPTV6DPHMNEp7DOkP3F4FVJGZxNki0kYNA1H6k8PzDsTxY5bCMOvwPF9kSzJ_GhFs-6VBzfkEpAqARgsUoSFss46zIYngORq34iuf5H6XWYma0xWYJLOH7HhNoH4MGZt2nrMLaDeRmVTUU-EazdbVM0udrEIO5-9fnlUaMMUEkBsxQ2Oic0o4yCVKRwjJR7OObxqtGBUaFCwi96ZH4mVajziA"/>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface group-hover:text-primary transition-colors max-w-[80px] truncate text-center">Design Tokens</span>
+</div>
+<!-- Highlight 4: VisionOS Labs -->
+<div class="flex flex-col items-center gap-space-xs group cursor-pointer flex-shrink-0">
+<div class="w-16 h-16 rounded-full p-[2px] bg-surface-variant hover:bg-primary-container/40 transition-all group-hover:scale-105">
+<div class="w-full h-full rounded-full overflow-hidden bg-surface-container-high flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px] text-primary">view_in_ar</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface group-hover:text-primary transition-colors max-w-[80px] truncate text-center">Vision Labs</span>
+</div>
+<!-- Highlight 5: Shaders & GLSL -->
+<div class="flex flex-col items-center gap-space-xs group cursor-pointer flex-shrink-0">
+<div class="w-16 h-16 rounded-full p-[2px] bg-surface-variant hover:bg-tertiary-container/40 transition-all group-hover:scale-105">
+<div class="w-full h-full rounded-full overflow-hidden bg-surface-container-high flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px] text-tertiary">blur_on</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface group-hover:text-primary transition-colors max-w-[80px] truncate text-center">GLSL Shaders</span>
+</div>
+<!-- Add New Highlight Pill -->
+<div class="flex flex-col items-center gap-space-xs group cursor-pointer flex-shrink-0">
+<div class="w-16 h-16 rounded-full bg-surface-container-high hover:bg-surface-container-highest flex items-center justify-center text-outline hover:text-primary transition-all">
+<span class="material-symbols-outlined text-[24px]">add</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Add Reel</span>
+</div>
+</div>
+</div>
+<!-- Interactive Filter Tabs -->
+<div class="max-w-[1440px] mx-auto px-space-md sm:px-space-xl w-full mt-space-lg">
+<div class="flex items-center gap-space-xs overflow-x-auto pb-1 scrollbar-none">
+<button class="flex items-center gap-space-xs px-space-md h-9 rounded-full bg-gradient-to-r from-primary-container to-secondary-container text-on-primary-container font-label-md text-label-md shadow-md flex-shrink-0" type="button">
+<span class="material-symbols-outlined text-[18px]">grid_view</span>
+<span>Posts (148)</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-md h-9 rounded-full bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors flex-shrink-0" type="button">
+<span class="material-symbols-outlined text-[18px]">auto_awesome_motion</span>
+<span>Media Grid</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-md h-9 rounded-full bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors flex-shrink-0" type="button">
+<span class="material-symbols-outlined text-[18px]">movie</span>
+<span>Reels</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-md h-9 rounded-full bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors flex-shrink-0" type="button">
+<span class="material-symbols-outlined text-[18px] text-secondary">folder_zip</span>
+<span>Shared Files (34)</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-md h-9 rounded-full bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors flex-shrink-0" type="button">
+<span class="material-symbols-outlined text-[18px]">hub</span>
+<span>Joined Spaces (12)</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-md h-9 rounded-full bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors flex-shrink-0" type="button">
+<span class="material-symbols-outlined text-[18px]">bookmarks</span>
+<span>Collections</span>
+</button>
+</div>
+</div>
+<!-- Primary Profile Body: Asymmetric Grid + Contextual Sidebar -->
+<div class="max-w-[1440px] mx-auto px-space-md sm:px-space-xl w-full mt-space-lg mb-space-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<!-- Main Content Feed (Left / Center 8 Cols) -->
+<div class="lg:col-span-8 flex flex-col gap-space-md">
+<!-- Feed Control / Sort Bar -->
+<div class="flex items-center justify-between px-space-md py-space-xs bg-surface-container-low/60 rounded-lg">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-label-md text-label-md">
+<span>Displaying:</span>
+<span class="text-on-surface font-semibold">Universal Stream</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="p-1 rounded text-primary hover:bg-surface-container-high" type="button">
+<span class="material-symbols-outlined text-[18px]">dashboard</span>
+</button>
+<button class="p-1 rounded text-on-surface-variant hover:bg-surface-container-high" type="button">
+<span class="material-symbols-outlined text-[18px]">view_agenda</span>
+</button>
+</div>
+</div>
+<!-- Bento Showcase Grid of Diverse Media & Assets -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Card 1: Architectural Photography High-Res Render (Spans 2 cols on tablet/desktop) -->
+<div class="md:col-span-2 rounded-xl bg-surface-container-low p-space-md flex flex-col gap-space-sm shadow-xl hover:shadow-[0_8px_30px_rgba(124,58,237,0.15)] transition-all">
+<!-- Header -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<img class="w-9 h-9 rounded-full object-cover" data-alt="Portrait of Emily Chen digital creator with soft purple neon glow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmQwfqB9447Aur6h0eNGRLMHnfl0owN78rGlkjoMjW_ArLraLOR9abv6k_vyi6FnWiuWyuUIjOUHrF-fc3A2cCwz8otAd2grnX2TIZR85nCZT6DWjbkJDa10LsVC8LxbOe_AA5h5Htk_4ZR9Z83ChH9BzhLBbiKd_4g0uvmzerAOfgLB5IKplmHO-PFZc1vj3FPpZykCyw8fZuMEsmCddRwdN71F3e4njDj3apKJsHesRL3Hqyh-lncQ"/>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Emily Chen</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">2 hours ago • Spatial Studies</span>
+</div>
+</div>
+<button class="text-on-surface-variant hover:text-on-surface p-1" type="button">
+<span class="material-symbols-outlined text-[20px]">more_horiz</span>
+</button>
+</div>
+<!-- Content Caption -->
+<p class="font-body-md text-body-md text-on-surface">
+              Exploring refractive concrete caustics in high-latitude dawn light. Rendered in Octane with custom spectral glass dispersion shaders. What do you feel from these forms?
+            </p>
+<!-- Media Container -->
+<div class="relative w-full h-80 sm:h-96 rounded-lg overflow-hidden bg-surface-container-high group">
+<img class="w-full h-full object-cover group-hover:scale-102 transition-transform duration-500" data-alt="Breathtaking architectural photograph of a futuristic angular museum building in Tokyo against a pastel violet sunrise sky, ultra sharp lines and reflective pools" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8oKJtdfkivkXngs65sRzlxgt6OJVTQO74E5Isp2MCSZCPJa8jl4dBUJiDpaR8MYiFFhM9VzfKem46fLNtowU_0ZFv8mAjT2SHD68UUi-U53UfrRbN5ql4X6GtSzSLUyHPwLF0qkiJqEjRlCf1f2UY65L6Hg6C_E1vIS0MGGKJOZCqsYPSne4tZggdD6cZB8hlgA94LKBDv2SD8BvqgS2ymYCTrBBXmhkWY1hNZyOZdOszzuz9R5jilA"/>
+<div class="absolute bottom-3 left-3 px-space-sm py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md flex items-center gap-1.5 text-on-surface font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px] text-tertiary">hdr_on</span>
+<span>8K Spatial Capture</span>
+</div>
+</div>
+<!-- Social Action Bar -->
+<div class="flex items-center justify-between pt-space-xs text-on-surface-variant font-label-md text-label-md">
+<div class="flex items-center gap-space-md">
+<button class="flex items-center gap-1 hover:text-tertiary transition-colors group" type="button">
+<span class="material-symbols-outlined text-[20px] group-hover:scale-110 transition-transform">favorite</span>
+<span>1.2k</span>
+</button>
+<button class="flex items-center gap-1 hover:text-primary transition-colors" type="button">
+<span class="material-symbols-outlined text-[20px]">chat_bubble_outline</span>
+<span>94</span>
+</button>
+<button class="flex items-center gap-1 hover:text-secondary transition-colors" type="button">
+<span class="material-symbols-outlined text-[20px]">repeat</span>
+<span>38</span>
+</button>
+</div>
+<button class="hover:text-on-surface" type="button">
+<span class="material-symbols-outlined text-[20px]">bookmark_border</span>
+</button>
+</div>
+</div>
+<!-- Card 2: Video Reel / Interactive Clip -->
+<div class="rounded-xl bg-surface-container-low p-space-md flex flex-col gap-space-sm shadow-xl hover:shadow-[0_8px_30px_rgba(5,102,217,0.15)] transition-all">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="px-2 py-0.5 rounded-full bg-tertiary-container/30 text-tertiary font-label-sm text-label-sm">Reel Drop</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Yesterday</span>
+</div>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">videocam</span>
+</div>
+<div class="relative w-full h-64 rounded-lg overflow-hidden bg-surface-container-high group cursor-pointer">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Stylized video reel frame of dynamic volumetric light passing through hands manipulating an ethereal hologram interface" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8lTosJsgRurp3NPIXqkov3JOcTGlaClNoPQ1N17onAj5LeUZ-OP8UayOWqQ6CeuDvGULGHHnzaHJCR7-utC_j0RNOMtHoi_-5OZ6bnoIWwfgXEMq_1nOACO1chWrcqtJFwzGyrQU7W3QA-A72efYvprr9S6u5TS1DjbOBnItgVAjiT9OmTukaLhmHcZxZk8VX_V3dtw_i-7i8ubtDFw7qmGiuK0F2A-GCelRCg7Y33ghxVss34SSSCQ"/>
+<div class="absolute inset-0 bg-surface-container-lowest/30 flex items-center justify-center">
+<div class="w-12 h-12 rounded-full bg-surface-container-lowest/80 backdrop-blur-md flex items-center justify-center text-on-surface group-hover:scale-110 group-hover:bg-primary transition-all">
+<span class="material-symbols-outlined text-[24px] ml-0.5">play_arrow</span>
+</div>
+</div>
+<div class="absolute bottom-2 left-2 px-space-xs py-0.5 rounded bg-surface-container-lowest/70 backdrop-blur-sm text-on-surface font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">visibility</span>
+<span>12.4k views</span>
+</div>
+<span class="absolute bottom-2 right-2 px-space-xs py-0.5 rounded bg-surface-container-lowest/70 backdrop-blur-sm text-on-surface font-label-sm text-label-sm font-mono">00:42</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface leading-snug">
+              Micro-interactions for Apple Vision Pro &amp; ConnectX Spatial OS
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+              Full breakdown of gestural velocity curves and audio-haptic sync benchmarks.
+            </p>
+</div>
+<!-- Card 3: Universal First-Class File Share: Figma Interaction Kit -->
+<div class="rounded-xl bg-surface-container-low p-space-md flex flex-col justify-between shadow-xl relative overflow-hidden group">
+<div class="absolute -right-12 -top-12 w-32 h-32 rounded-full bg-primary-container/15 blur-2xl group-hover:bg-primary-container/25 transition-colors"></div>
+<div class="flex flex-col gap-space-sm relative z-10">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-10 h-10 rounded-lg bg-[#a259ff]/20 text-[#a259ff] flex items-center justify-center font-bold text-headline-sm">
+<span class="material-symbols-outlined text-[22px]">draw</span>
+</span>
+<div>
+<span class="px-2 py-0.5 rounded bg-secondary-container/20 text-secondary-fixed-dim font-label-sm text-label-sm uppercase tracking-wider font-semibold">Community Resource</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mt-0.5">Spatial_Interaction_Kit.fig</h4>
+</div>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Official component system with 60+ spatial UI widgets, glass variables, and eye-tracking ready interactive prototypes.
+              </p>
+<!-- Real-time Velocity & Download Stats -->
+<div class="p-space-sm rounded-lg bg-surface-container-high/60 flex flex-col gap-1.5">
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-on-surface-variant">Format: Figma File (.fig)</span>
+<span class="text-primary font-mono font-medium">84.2 MB</span>
+</div>
+<div class="w-full bg-surface-container-highest h-1.5 rounded-full overflow-hidden">
+<div class="bg-gradient-to-r from-primary-container to-secondary h-full w-4/5 rounded-full"></div>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm text-outline">
+<span>1,420 peer downloads</span>
+<span class="text-emerald-400 flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[12px]">verified_user</span> P2P Seeded
+                  </span>
+</div>
+</div>
+</div>
+<!-- Download Action Button -->
+<button class="w-full mt-space-md h-10 rounded-lg bg-surface-container-high hover:bg-primary-container hover:text-on-primary-container text-on-surface font-label-md text-label-md flex items-center justify-center gap-space-xs transition-all shadow-sm" type="button">
+<span class="material-symbols-outlined text-[18px]">cloud_download</span>
+<span>Download Raw Asset</span>
+</button>
+</div>
+<!-- Card 4: Audio Track Release with Waveform -->
+<div class="rounded-xl bg-surface-container-low p-space-md flex flex-col justify-between shadow-xl group">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="w-8 h-8 rounded-full bg-tertiary-container/30 text-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">graphic_eq</span>
+</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface truncate">Midnight Echoes (Master).flac</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Modular Synth Ambient Jam</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant font-mono text-label-sm">24-bit / 96kHz</span>
+</div>
+<!-- Inline Waveform Visualizer SVG -->
+<div class="h-20 w-full bg-surface-container-high/40 rounded-lg p-space-sm flex items-center gap-1 mt-space-xs overflow-hidden">
+<div class="w-1.5 h-6 bg-primary/40 rounded-full animate-pulse"></div>
+<div class="w-1.5 h-10 bg-primary/70 rounded-full"></div>
+<div class="w-1.5 h-14 bg-primary rounded-full"></div>
+<div class="w-1.5 h-8 bg-primary/50 rounded-full"></div>
+<div class="w-1.5 h-16 bg-primary-container rounded-full"></div>
+<div class="w-1.5 h-12 bg-secondary rounded-full"></div>
+<div class="w-1.5 h-10 bg-secondary/80 rounded-full"></div>
+<div class="w-1.5 h-5 bg-outline-variant rounded-full"></div>
+<div class="w-1.5 h-14 bg-tertiary rounded-full"></div>
+<div class="w-1.5 h-16 bg-tertiary-fixed rounded-full"></div>
+<div class="w-1.5 h-11 bg-primary rounded-full"></div>
+<div class="w-1.5 h-7 bg-primary/40 rounded-full"></div>
+<div class="w-1.5 h-12 bg-secondary rounded-full"></div>
+<div class="w-1.5 h-8 bg-secondary/60 rounded-full"></div>
+<div class="w-1.5 h-4 bg-outline-variant rounded-full"></div>
+<div class="w-1.5 h-10 bg-primary/60 rounded-full"></div>
+<div class="w-1.5 h-14 bg-primary rounded-full"></div>
+<div class="w-1.5 h-9 bg-primary/50 rounded-full"></div>
+<div class="w-1.5 h-5 bg-outline-variant rounded-full"></div>
+</div>
+</div>
+<!-- Audio Player Controls -->
+<div class="flex items-center justify-between pt-space-sm">
+<div class="flex items-center gap-space-xs">
+<button class="w-9 h-9 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center hover:scale-105 transition-transform shadow-md" type="button">
+<span class="material-symbols-outlined text-[20px]">play_arrow</span>
+</button>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface font-mono">01:14 / 04:32</span>
+<span class="font-body-sm text-body-sm text-outline">Moog Matriarch + Reverb</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant">
+<button class="p-1.5 rounded-full hover:bg-surface-container-high hover:text-on-surface" type="button">
+<span class="material-symbols-outlined text-[18px]">playlist_add</span>
+</button>
+<button class="p-1.5 rounded-full hover:bg-surface-container-high hover:text-on-surface" type="button">
+<span class="material-symbols-outlined text-[18px]">file_download</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Card 5: 3D Asset Shader Card -->
+<div class="rounded-xl bg-surface-container-low p-space-md flex flex-col justify-between shadow-xl relative overflow-hidden group">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="px-2 py-0.5 rounded-full bg-secondary-container/30 text-secondary font-label-sm text-label-sm">GLSL Shader</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-outline font-mono text-label-sm">WebGL 2.0</span>
+</div>
+<button class="text-on-surface-variant hover:text-on-surface" type="button">
+<span class="material-symbols-outlined text-[18px]">terminal</span>
+</button>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mt-1">Glass_Morph_Shader.frag</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Real-time chromatic dispersion with multi-layered specular noise maps. Zero dependencies.
+              </p>
+<!-- Shader Preview Graphic -->
+<div class="w-full h-32 rounded-lg overflow-hidden relative bg-surface-container-lowest mt-1">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Liquid chrome and iridescent glass morphing shader artifact floating against a dark cyber purple space canvas" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAyb0WZSMLXDe_59MglOF1K9wTuIsnuerxbPsZzIhi-axZ5oNcZoAuzUG_2z4ijcXcWL9gH7kyY_v3jGcCB-F16Cjb5rweMyBltR9qHbUokm3aG0OdO-2KyE8j4ZqfhYE1ez63TzIzkvsVqY7iKSU-uHmiOvs1U-1Lbuoh6KEI_iV6yPu6An4sF214sB0hoH_r9nku7b_Qlktt4vBfzO_NiLfX6ZJpOhxAh5TPGXEK-f7-sgDaoSUYm-A')"></div>
+<div class="absolute top-2 right-2 px-2 py-0.5 rounded bg-surface-container-lowest/80 backdrop-blur-md text-secondary font-mono text-label-sm">
+                  120 FPS
+                </div>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-sm">
+<span class="font-label-sm text-label-sm text-outline">Forked 214 times</span>
+<button class="flex items-center gap-1 text-primary hover:text-primary-fixed font-label-md text-label-md" type="button">
+<span>View Shader Toy</span>
+<span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Pagination / Stream Anchor -->
+<div class="flex items-center justify-center py-space-lg">
+<button class="px-space-xl h-11 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-all flex items-center gap-space-xs shadow-md" type="button">
+<span class="material-symbols-outlined text-[20px] text-primary">autorenew</span>
+<span>Load Archive Drops</span>
+</button>
+</div>
+</div>
+<!-- Right Contextual Rail / Sidebar (4 Cols) -->
+<div class="lg:col-span-4 flex flex-col gap-space-lg">
+<!-- Module 1: Ask Emily's AI Avatar (Personal Interactive Agent) -->
+<div class="p-space-lg rounded-xl bg-gradient-to-br from-surface-container-low via-surface-container to-surface-container-low relative shadow-xl overflow-hidden">
+<div class="absolute -top-10 -right-10 w-28 h-28 rounded-full bg-primary-container/20 blur-2xl pointer-events-none"></div>
+<div class="flex items-center gap-space-xs mb-space-xs">
+<span class="material-symbols-outlined text-[20px] text-primary">smart_toy</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Emily’s Twin AI</h3>
+<span class="px-2 py-0.2 rounded-full bg-primary-container/25 text-primary-fixed-dim font-label-sm text-label-sm ml-auto">Active</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Ask Emily’s AI avatar about her design process, spatial prototyping stack, or open collaboration slots.
+          </p>
+<div class="relative mt-space-md">
+<input class="w-full h-11 pl-space-md pr-10 bg-surface-container-lowest/80 rounded-lg text-body-sm text-on-surface placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-primary shadow-inner" placeholder="e.g. What shaders do you use for glass?" type="text"/>
+<button class="absolute right-2 top-2 w-7 h-7 rounded bg-primary-container text-on-primary-container flex items-center justify-center hover:opacity-90 transition-opacity" type="button">
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+<!-- Suggested Quick Prompts -->
+<div class="flex flex-wrap gap-1.5 mt-space-sm">
+<button class="px-2 py-1 rounded bg-surface-container-high hover:bg-surface-container-highest text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm transition-colors" type="button">
+              💼 Are you taking contract work?
+            </button>
+<button class="px-2 py-1 rounded bg-surface-container-high hover:bg-surface-container-highest text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm transition-colors" type="button">
+              🎨 Tokyo Photography Gear
+            </button>
+</div>
+</div>
+<!-- Module 2: Mutual Friends & Collaborators -->
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-xl flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Mutual Creators</h3>
+<a class="font-label-sm text-label-sm text-primary hover:underline" href="#">See all 48</a>
+</div>
+<!-- User 1 -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<div class="relative">
+<img class="w-10 h-10 rounded-full object-cover" data-alt="Avatar photo of Marcus Reed sound designer with neon blue headphones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDor7yGA2LH4yVkGCkR_oZO2g3dEWqH-O2yUrs7Tlx7GgVFdh8VjByXdR7Naf4DWWkq18evjXwj6b-HN3KtT1DZDtkEaHvDw-Lq2FGoTz4x9Cqfym4PNr0VUJwQo-cE8MY7f--2cxVB5XqVui9QbI_gfZmybCY9v7gYWDWlgkYC1aqVFNmeVUGasnl-8J5IJJ2pkKe9DAv3GHBm4PO9v02ByvRxbwTpDelsQj526QjBFxMFOmt-6UMfIA"/>
+<span class="absolute bottom-0 right-0 w-2.5 h-2.5 rounded-full bg-emerald-400 ring-2 ring-surface-container-low"></span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-on-surface truncate">Marcus Reed</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">@m_soundlab • 14 mutuals</span>
+</div>
+</div>
+<button class="px-space-md h-8 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-sm text-label-sm transition-all flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[14px]">person_add</span>
+<span>Follow</span>
+</button>
+</div>
+<!-- User 2 -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<div class="relative">
+<img class="w-10 h-10 rounded-full object-cover" data-alt="Avatar portrait of Sophia Lin creative technologist with sleek glasses and studio lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAr2u8UvQPmI936l5WRnhSvcXF_ih8VjZaTWFlR_-qvi77KDJOxxmvZqvCXqROaf8JvGUR05twTZhLB7xweucwGmzjUijtMY1GO-1H96_JwrXCk9ysHSLOLORUYg15QLKBAT3r208xzRU2LcqO3A6rhQDESpSjJ0YSE7oNbByZiM6iWU251gXuoAc61pGdcZAru-DMWl9a0ShXq_4gMrdVTQouBnFTwlzRHD-Rn17oA24Jm24mgAgs2jg"/>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-on-surface truncate">Sophia Lin</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">@lin_spatial • 32 mutuals</span>
+</div>
+</div>
+<button class="px-space-md h-8 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-sm text-label-sm transition-all flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[14px]">person_add</span>
+<span>Follow</span>
+</button>
+</div>
+<!-- User 3 -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<div class="relative">
+<img class="w-10 h-10 rounded-full object-cover" data-alt="Portrait avatar of Takuya Sato generative 3D artist in Tokyo with ambient purple light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYrGMPLvTkR0TZIrDWdS9SlGTcAKzlxH3ouEBf_4KKahSrronId42pkCJymRH_9yPiUsN89O1ZAC0uRC4g_hCjK909UghIsNaHFPrO2-EjDyNkxjPwdWeCSnjBrKqJKcAN7GoKI6CXZDWpy75YdT_scIbYgEEop35HWIXnUauZLowDlgIWaxOM00BYPbTlSbQtI8fVz75cNklpnbjgGymHWptqwMWK_zbTjpp7RCl7FbqH-MEqbuZshA"/>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-on-surface truncate">Takuya Sato</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">@takuya_3d • 8 mutuals</span>
+</div>
+</div>
+<button class="px-space-md h-8 rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-sm text-label-sm transition-all flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[14px]">person_add</span>
+<span>Follow</span>
+</button>
+</div>
+</div>
+<!-- Module 3: Spaces Moderated by Emily -->
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-xl flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[20px] text-tertiary">groups_3</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Moderated Spaces</h3>
+</div>
+<span class="font-label-sm text-label-sm text-outline">Lead Role</span>
+</div>
+<!-- Space Item 1 -->
+<div class="p-space-md rounded-lg bg-surface-container-high/50 hover:bg-surface-container-high transition-colors flex items-center justify-between group cursor-pointer">
+<div class="flex items-center gap-space-xs">
+<div class="w-10 h-10 rounded-lg bg-gradient-to-tr from-primary-container to-tertiary-container flex items-center justify-center text-on-primary-container shadow-md">
+<span class="material-symbols-outlined text-[22px]">motion_sensor_active</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface group-hover:text-primary transition-colors">Generative Motion</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">4.8k Spatial Designers</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[20px] text-outline group-hover:text-on-surface group-hover:translate-x-1 transition-all">chevron_right</span>
+</div>
+<!-- Space Item 2 -->
+<div class="p-space-md rounded-lg bg-surface-container-high/50 hover:bg-surface-container-high transition-colors flex items-center justify-between group cursor-pointer">
+<div class="flex items-center gap-space-xs">
+<div class="w-10 h-10 rounded-lg bg-gradient-to-tr from-secondary-container to-primary flex items-center justify-center text-on-primary-container shadow-md">
+<span class="material-symbols-outlined text-[22px]">architecture</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface group-hover:text-primary transition-colors">UI Architects Hub</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">12.1k System Builders</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[20px] text-outline group-hover:text-on-surface group-hover:translate-x-1 transition-all">chevron_right</span>
+</div>
+</div>
+<!-- Module 4: Connected Hardware & Spatial Setup -->
+<div class="p-space-lg rounded-xl bg-surface-container-low/70 shadow-xl flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Spatial Hardware Rig</span>
+<div class="flex items-center justify-between mt-space-xs">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-primary">headset</span>
+<span class="font-body-sm text-body-sm text-on-surface">Apple Vision Pro (512GB)</span>
+</div>
+<span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-secondary">computer</span>
+<span class="font-body-sm text-body-sm text-on-surface">Mac Studio M2 Ultra • 128GB</span>
+</div>
+<span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-tertiary">piano</span>
+<span class="font-body-sm text-body-sm text-on-surface">Teenage Engineering OP-1 Field</span>
+</div>
+<span class="w-2 h-2 rounded-full bg-outline"></span>
+</div>
+</div>
+<!-- Footer Meta within Profile Scope -->
+<div class="flex items-center justify-between px-space-xs text-outline font-label-sm text-label-sm">
+<span>ConnectX Node #8109-JP</span>
+<span>End-to-End P2P Synced</span>
+</div>
+</div>
+</div>
+</div>
+</div></main></div></body></html>

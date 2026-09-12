@@ -1,0 +1,20 @@
+node_modules
+dist
+.DS_Store
+*.log
+.env
+.env.local
+.env.*.local
+apps/web/dist
+coverage
+.vscode/*
+!.vscode/extensions.json
+
+# Backend / Python
+.venv
+__pycache__/
+*.py[cod]
+.pytest_cache
+backend/.env
+backend/.pytest_cache
+

@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><title>ConnectX</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#11131a;color:#e2e2ec;font-family:'Inter',sans-serif;-webkit-tap-highlight-color:transparent;}body{overscroll-behavior-y:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-surface":"#e2e2ec","error":"#ffb4ab","on-error":"#690005","tertiary-fixed":"#ffd9e4","primary-fixed-dim":"#d2bbff","on-background":"#e2e2ec","on-tertiary-fixed":"#3e0022","surface-bright":"#373941","inverse-on-surface":"#2e3038","secondary-fixed-dim":"#adc6ff","on-error-container":"#ffdad6","surface-tint":"#d2bbff","on-tertiary-fixed-variant":"#8c0053","inverse-primary":"#732ee4","surface-variant":"#33343c","on-tertiary":"#640039","surface-dim":"#11131a","surface-container-high":"#282a31","tertiary":"#ffb0cd","on-primary-container":"#ede0ff","on-primary-fixed":"#25005a","tertiary-fixed-dim":"#ffb0cd","inverse-surface":"#e2e2ec","secondary-fixed":"#d8e2ff","surface":"#11131a","primary-fixed":"#eaddff","surface-container":"#1d1f27","secondary":"#adc6ff","on-primary-fixed-variant":"#5a00c6","surface-container-low":"#191b23","background":"#11131a","on-surface-variant":"#ccc3d8","on-secondary-fixed":"#001a42","on-secondary":"#002e6a","on-tertiary-container":"#ffdde7","surface-container-highest":"#33343c","on-primary":"#3f008e","outline":"#958da1","surface-container-lowest":"#0c0e15","outline-variant":"#4a4455","secondary-container":"#0566d9","primary-container":"#7c3aed","primary":"#d2bbff","tertiary-container":"#bf2076","error-container":"#93000a","on-secondary-fixed-variant":"#004395","on-secondary-container":"#e6ecff"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"gutter-mobile":"0.75rem","space-lg":"1.5rem","margin":"2rem","margin-mobile":"1rem","space-xl":"2rem","space-sm":"0.5rem","space-xs":"0.25rem","space-md":"1rem","gutter":"1.25rem"},"fontFamily":{"display-lg":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"body-lg":["Inter"],"label-md":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"body-md":["Inter"],"headline-xl-mobile":["Plus Jakarta Sans"],"display-lg-mobile":["Plus Jakarta Sans"],"body-sm":["Inter"],"label-sm":["Plus Jakarta Sans"]},"fontSize":{"display-lg":["48px",{"lineHeight":"56px","letterSpacing":"-0.03em","fontWeight":"800"}],"headline-sm":["16px",{"lineHeight":"24px","letterSpacing":"0","fontWeight":"600"}],"headline-md":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"26px","letterSpacing":"-0.005em","fontWeight":"400"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"600"}],"headline-xl":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-lg":["24px",{"lineHeight":"32px","letterSpacing":"-0.015em","fontWeight":"700"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"22px","letterSpacing":"0","fontWeight":"400"}],"headline-xl-mobile":["26px",{"lineHeight":"34px","letterSpacing":"-0.015em","fontWeight":"700"}],"display-lg-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"800"}],"body-sm":["12px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"400"}],"label-sm":["10px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"700"}]}}}};</script></head><body class="bg-surface text-on-surface min-h-screen flex flex-col antialiased selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_4px_24px_rgba(0,0,0,0.4)] pt-safe"><div class="h-16 px-margin-mobile flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="Brand logo. - Primary color: #7c3aed
+- Font: plusJakartaSans
+- Mode: dark
+- Roundness: rounded-md
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UulgKsOQF7jBsx6I94Dkx_mIKV73HSNwPpdY9_B5Ls0ZcgRv5lxZbrAzfz3YWiL0XR20G-InK2HQNqPQmWBYglCuDN24Byz_Bo2UksZ2QLxTg-f_wmDMuTqDkw0NE3Ow5oSZB9koQ7AwKv31Jvy7JTMBTFzFq5dYLVx2f1OzBrw61-Qlxf_YC9sl2EiQfrlcSeQd6h1YrW70BKwpH3SYC70YPLc2v1Tq8AQ75mxML0fEYpX1HGO0IcivFv"/><span class="font-headline-lg text-headline-lg tracking-tight text-on-surface flex items-center gap-1.5">Connect<span class="text-primary">X</span></span><span class="hidden">Spaces Profile</span></div><div class="flex items-center gap-space-xs"><a class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-variant/40 transition-colors" data-path="universal-search" href="#"><span class="material-symbols-outlined text-[22px]">search</span></a><a class="relative w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-variant/40 transition-colors" data-path="notifications" href="#"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-tertiary ring-2 ring-surface animate-pulse"></span></a><a class="ml-1 flex items-center justify-center p-0.5 rounded-full bg-gradient-to-tr from-primary via-tertiary to-secondary hover:scale-105 transition-transform" data-path="creator-profile" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1UWDiqRW1hJPTWz54Ce3I2MLJyjgKVqH-gaxHzuycl1ZMxel8vkDxfxbBWo9QeKeueo3YGwd_C4W4GMrqin27Xv3Q2ghREKs3YqEvXzLDkFfpAXzLjhE0MeOMd9bH2LPaoUzHJTBF84IbJohqTLOloKveN00cYEYpbfZwflmSa9JDSeWZqvg6mlx-anSfwYi19ICFm9IdBwPsUUepaYKAEngIAHfzpgl8O7gLm3WtJ7AxodUlk7vdYXImM"/></a></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-24 bg-surface"><div class="flex flex-col w-full">
+<!-- Atmospheric Glow Backdrop -->
+<div class="relative w-full overflow-hidden bg-surface-container-lowest">
+<!-- Hero Banner with Neon Kinetic Ribbon Visual -->
+<div class="relative w-full h-44 bg-surface-container-high overflow-hidden">
+<div class="w-full h-full bg-cover bg-center" data-alt="Abstract 3D kinetic glass ribbons and glowing neon gradient fluid waves swirling in deep space. Vibrant electric violet, luminous cyber blue, and energetic hot pink filaments weaving together against an ultra dark cosmic background with volumetric caustics and subtle particle dust." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB2UzHTByvqgwR9Gbr5Ld7_hpZP-tK0K1nXluh6iD7RWzFqspyQM1LBWoYg604Hw3iA6NKKjsmIAs89jLfMVKWJKblDL3aXT26DU-dE_f3puc8oJhFwZctpDRtlO-iKKpLUrlkUCr2Qdj0U91l7mHr6hga2NGyhuj8CKPwzBCCcJ8nRT7lxMbMZ9m_gN3QauHcF9DV6RR9OH1CvzfMZDCXJ5NvLrFSwy41ZLSVFQZfMA9hmaFGCLQhwbA')">
+<div class="absolute inset-0 bg-gradient-to-b from-transparent via-surface-container-lowest/40 to-surface-container-lowest"></div>
+</div>
+<!-- Quick Action Controls on Banner -->
+<div class="absolute top-3 right-3 flex items-center gap-space-xs z-10">
+<button aria-label="Bookmark Space" class="w-9 h-9 rounded-full bg-surface-container-high/80 backdrop-blur-md flex items-center justify-center text-on-surface shadow-md active:scale-95 transition-transform" id="bookmarkBtn">
+<span class="material-symbols-outlined text-[18px]">bookmark_border</span>
+</button>
+<button aria-label="Space Settings" class="w-9 h-9 rounded-full bg-surface-container-high/80 backdrop-blur-md flex items-center justify-center text-on-surface shadow-md active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-[18px]">more_horiz</span>
+</button>
+</div>
+</div>
+<!-- Space Profile Info Card Area -->
+<div class="px-margin-mobile -mt-10 relative z-20 pb-4">
+<div class="flex items-end justify-between mb-3">
+<!-- Space Avatar -->
+<div class="relative">
+<div class="w-20 h-20 rounded-2xl bg-surface-container-highest p-1 shadow-xl flex items-center justify-center">
+<div class="w-full h-full rounded-xl bg-gradient-to-tr from-primary-container via-secondary to-tertiary flex items-center justify-center shadow-[0_0_20px_rgba(124,58,237,0.5)]">
+<span class="material-symbols-outlined text-white text-[38px]">view_in_ar</span>
+</div>
+</div>
+<!-- Verified Guild Badge -->
+<div class="absolute -bottom-1 -right-1 w-6 h-6 rounded-full bg-secondary-container flex items-center justify-center shadow-md">
+<span class="material-symbols-outlined text-[14px] text-white" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+</div>
+<!-- Action Buttons -->
+<div class="flex items-center gap-space-xs mb-1">
+<button class="h-9 px-4 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md flex items-center gap-1.5 shadow-sm active:scale-95 transition-all" id="membershipBtn">
+<span class="material-symbols-outlined text-[16px] text-primary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span>Joined</span>
+</button>
+<button class="h-9 px-3.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md flex items-center gap-1 shadow-sm active:scale-95 transition-all hover:bg-surface-variant">
+<span class="material-symbols-outlined text-[16px]">person_add</span>
+<span>Invite</span>
+</button>
+</div>
+</div>
+<!-- Space Identity Text -->
+<div class="flex flex-col gap-1">
+<h1 class="font-headline-xl-mobile text-headline-xl-mobile text-on-surface tracking-tight">Motion &amp; Spatial Guild</h1>
+<div class="flex items-center gap-2 text-on-surface-variant font-label-md text-label-md">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-primary">groups</span>
+            12.8k members
+          </span>
+<span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+<span class="flex items-center gap-1.5 text-secondary">
+<span class="w-2 h-2 rounded-full bg-secondary shadow-[0_0_8px_rgba(173,198,255,0.8)]"></span>
+            420 online
+          </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1 leading-relaxed">
+          Daily critique, procedural render pipelines, and spatial interface prototyping for digital architects.
+        </p>
+</div>
+<!-- Compact Live Stage Pill Indicator -->
+<div class="mt-3 flex items-center justify-between p-2.5 rounded-xl bg-surface-container/90 shadow-md">
+<div class="flex items-center gap-2 min-w-0">
+<span class="w-7 h-7 rounded-lg bg-tertiary-container flex items-center justify-center text-on-tertiary-container flex-shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[16px] animate-pulse">mic</span>
+</span>
+<div class="truncate">
+<div class="font-label-md text-label-md text-on-surface truncate">Audio Stage Active</div>
+<div class="font-body-sm text-body-sm text-tertiary">36 listeners tuning in</div>
+</div>
+</div>
+<button class="flex-shrink-0 px-3 py-1 rounded-full bg-tertiary/20 text-tertiary font-label-sm text-label-sm active:scale-95 transition-transform flex items-center gap-1">
+<span>Listen</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Horizontal Navigation Tabs (Sticky Feel) -->
+<div class="sticky top-16 z-40 bg-surface/95 backdrop-blur-md px-margin-mobile py-2.5 shadow-sm">
+<div class="flex items-center gap-2 overflow-x-auto no-scrollbar py-0.5">
+<button class="space-nav-tab flex-shrink-0 px-4 py-1.5 rounded-full bg-gradient-to-r from-primary-container to-secondary-container text-white font-label-md text-label-md shadow-sm active:scale-95 transition-transform flex items-center gap-1.5" data-tab="feed">
+<span class="material-symbols-outlined text-[16px]">dynamic_feed</span>
+<span>Feed</span>
+</button>
+<button class="space-nav-tab flex-shrink-0 px-4 py-1.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md active:scale-95 transition-colors hover:text-on-surface flex items-center gap-1.5" data-tab="chat">
+<span class="material-symbols-outlined text-[16px]">chat</span>
+<span>Chat</span>
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+</button>
+<button class="space-nav-tab flex-shrink-0 px-4 py-1.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md active:scale-95 transition-colors hover:text-on-surface flex items-center gap-1.5" data-tab="files">
+<span class="material-symbols-outlined text-[16px]">folder_zip</span>
+<span>Files</span>
+<span class="px-1.5 py-0.2 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-[10px]">184</span>
+</button>
+<button class="space-nav-tab flex-shrink-0 px-4 py-1.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md active:scale-95 transition-colors hover:text-on-surface flex items-center gap-1.5" data-tab="events">
+<span class="material-symbols-outlined text-[16px]">event</span>
+<span>Events</span>
+</button>
+<button class="space-nav-tab flex-shrink-0 px-4 py-1.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md active:scale-95 transition-colors hover:text-on-surface flex items-center gap-1.5" data-tab="members">
+<span class="material-symbols-outlined text-[16px]">group</span>
+<span>Members</span>
+</button>
+</div>
+</div>
+<!-- Main Scrollable Space Feed Content -->
+<div class="px-margin-mobile flex flex-col gap-4 pt-3 pb-8">
+<!-- Active Live Audio Stage Detailed Hero Card -->
+<div class="relative overflow-hidden rounded-2xl bg-surface-container-high p-4 shadow-lg">
+<div class="absolute -right-8 -top-8 w-36 h-36 rounded-full bg-primary-container/20 blur-2xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col gap-3">
+<!-- Live Status Tag & Topic -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-tertiary-container text-on-tertiary-container font-label-sm text-label-sm uppercase tracking-wider">
+<span class="w-1.5 h-1.5 rounded-full bg-white animate-ping"></span>
+              Live Stage
+            </span>
+<span class="text-on-surface-variant font-label-sm text-label-sm">Room 04</span>
+</div>
+<div class="flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[15px] text-secondary">graphic_eq</span>
+<span>36 Tuning In</span>
+</div>
+</div>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface leading-snug">
+            Spatial Haptics &amp; Vision Pro Shader Pipelines
+          </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+            Deep dive into micro-interactions, real-time depth occlusion, and Apple Metal shaders.
+          </p>
+</div>
+<!-- Speaker Avatars Row with Cyan Audio Rings -->
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center -space-x-2.5">
+<div class="relative">
+<div class="w-9 h-9 rounded-full bg-secondary/30 p-0.5 flex items-center justify-center shadow-md">
+<img class="w-full h-full rounded-full object-cover" data-alt="Close up portrait photograph of an innovative male 3D creative director with futuristic soft studio rim light and high contrast." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDLXyqo4D6JHQiwAsaYk2HuAiw_dDNlwysB-qVDuL9AqxDgcAT_FBGQHYOnaj14c5M1MGSaOZL_9X1Ge8kEI8UI3e_zf0aC9PpgtVpngIoPBQehBaTLdRe-sMGZRFcrxPFgn2LAMgKZ8J7TGX0wpVt7g6ovDprR_Qm__zjfpW4RA1AnLQ5kXMJFtccdyzdnx8n82QO5G78odIOj-WJuX5kk4B1UnDRzjPNVwmcF4da1HEMgTRO9WpjCGg"/>
+</div>
+<span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-surface-container-high flex items-center justify-center">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+</span>
+</div>
+<div class="relative">
+<div class="w-9 h-9 rounded-full bg-primary/30 p-0.5 flex items-center justify-center shadow-md">
+<img class="w-full h-full rounded-full object-cover" data-alt="Portrait of a female spatial computing engineer with cyber ambient purple backlight in a modern tech lab." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBt1G5ABQUIcjgoHkXs8FWwUTtOK5sHItuDbNaiS8o2Uh1-kuTWphQW6BBLw9lKXJ8jg6v6ONfLXCSGXUEPSbx7QvMC39txial376DbmI8wMT3hkx6R4XZo0Spr-qvHK_nI0-S9vaxLMrjOvxdiqsDka_-UiIFPlhjD4D39BpbNmRa3JsM8VcoVcOzKUv2aisWPitzokSAeNYMQKTfZnGJbwwrfUlwuhJaJ5BMFO6h-p9pgNC3siG0i_A"/>
+</div>
+<span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-surface-container-high flex items-center justify-center">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+</span>
+</div>
+<div class="relative">
+<div class="w-9 h-9 rounded-full bg-surface-variant p-0.5 flex items-center justify-center shadow-md">
+<img class="w-full h-full rounded-full object-cover" data-alt="Minimalist stylized 3D avatar headshot of a digital render artist with translucent neon elements." src="https://lh3.googleusercontent.com/aida-public/AB6AXuByIrB7dJU4_p4o2zuyGzEI651qS9hCYbtuE74nI1B3yiWPoD78TCc_zD-8owBDyOfgk2XoRy9Zar3B8cx1KSm6smeccz63VzdqFGR02WKgDrQ5naxOSbZlnU_Lh_IlBW83pFU6Lp0xqE6hceFR3ANxkaS-tnr-Dgrt5YJqziEbFA_ewxo3bWC0eifXBfK_X_GbsGBTDayU5oJy3mYIgh5wwNqMA-nEInYMSKzsCxJ3-7F6IuxH0MijGA"/>
+</div>
+</div>
+<div class="w-9 h-9 rounded-full bg-surface-container-highest flex items-center justify-center text-on-surface-variant font-label-sm text-[11px] shadow-sm pl-1">
+              +4
+            </div>
+</div>
+<!-- Tune In CTA -->
+<button class="px-4 py-2 rounded-full bg-gradient-to-r from-primary to-primary-container text-on-primary font-label-md text-label-md shadow-md active:scale-95 transition-all flex items-center gap-1.5" id="tuneInBtn">
+<span class="material-symbols-outlined text-[18px]">headphones</span>
+<span>Tune In</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Pinned Community Challenge Post -->
+<article class="rounded-2xl bg-surface-container p-4 shadow-md flex flex-col gap-3">
+<!-- Post Meta Header -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2.5">
+<div class="w-9 h-9 rounded-full bg-gradient-to-tr from-primary via-tertiary to-secondary p-0.5">
+<img class="w-full h-full rounded-full object-cover" data-alt="Artistic portrait of senior community lead designer with reflective neon studio lighting against a dark minimal backdrop." src="https://lh3.googleusercontent.com/aida-public/AB6AXuANMIkobk2tNV6Gz5p328u-9xJtMLQYJfbyHK1egyfw7AC9rmtiavdI3sFatm2nTEzgg54ZR1l4eqPuGJgoWMS9-TrcgknzzM0Qm23MJFnVk9dcgKlBMdQ4CuYBMe51ieVUUVKD8ugjVUMIIxbVN_pB9T4VInOzTpLACoYAoNWfA9rJ6fJhL8PnWpuSgQs3quNU0EFvg3J3p6y5bXk5HnQRe0tg9yFdD14wz2dZK6ojl_FlBderE_QZFA"/>
+</div>
+<div>
+<div class="flex items-center gap-1.5">
+<span class="font-label-md text-label-md text-on-surface">Kaelen Vance</span>
+<span class="px-1.5 py-0.2 rounded bg-primary-container/40 text-primary font-label-sm text-[10px]">MOD</span>
+</div>
+<div class="flex items-center gap-1.5 text-on-surface-variant font-body-sm text-body-sm">
+<span>@kaelenv</span>
+<span>•</span>
+<span>3h ago</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-1">
+<span class="flex items-center gap-1 px-2 py-0.5 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">push_pin</span>
+            Pinned
+          </span>
+<button aria-label="Post Options" class="w-8 h-8 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface">
+<span class="material-symbols-outlined text-[18px]">more_vert</span>
+</button>
+</div>
+</div>
+<!-- Post Body -->
+<div class="flex flex-col gap-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">
+          Weekly Guild Challenge #42: Procedural Glass Caustics ✨
+        </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+          Push real-time ray dispersion to the edge! Focus on internal refraction index (IOR 1.52) and anisotropic highlights. Submit your viewports by Friday 18:00 UTC. Grab the starter pipeline asset below to jumpstart your scene.
+        </p>
+</div>
+<!-- Universal File Sharing Badge / Asset Vault Card -->
+<div class="rounded-xl bg-surface-container-high p-3.5 flex flex-col gap-2.5 shadow-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-11 h-11 rounded-xl bg-surface-container-lowest flex items-center justify-center flex-shrink-0 shadow-inner">
+<span class="material-symbols-outlined text-primary text-[24px]">deployed_code</span>
+</div>
+<div class="truncate">
+<div class="font-label-lg text-label-lg text-on-surface truncate flex items-center gap-1.5">
+<span>Glass_Caustic_Base.blend</span>
+<span class="px-1.5 py-0.2 rounded bg-surface-variant text-secondary font-label-sm text-[10px]">.BLEND</span>
+</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-2">
+<span>34.2 MB</span>
+<span>•</span>
+<span class="text-secondary flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[12px]">lock_open</span>
+                  MIT License
+                </span>
+</div>
+</div>
+</div>
+</div>
+<!-- Progress/Velocity Transfer Bar Simulator -->
+<div class="w-full bg-surface-container-lowest h-1.5 rounded-full overflow-hidden">
+<div class="bg-gradient-to-r from-primary via-secondary to-tertiary h-full w-3/4 rounded-full"></div>
+</div>
+<!-- File Card Action Trays -->
+<div class="flex items-center justify-end gap-2 pt-1">
+<button class="h-8 px-3 rounded-full bg-surface-variant text-on-surface font-label-sm text-label-sm flex items-center gap-1 active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-[14px]">visibility</span>
+<span>3D Preview</span>
+</button>
+<button class="h-8 px-3.5 rounded-full bg-primary-container text-on-primary-container font-label-sm text-label-sm flex items-center gap-1 shadow-sm active:scale-95 transition-transform" id="downloadStarterBtn">
+<span class="material-symbols-outlined text-[14px]">download</span>
+<span>Download Kit</span>
+</button>
+</div>
+</div>
+<!-- Community Interactive Poll Block -->
+<div class="rounded-xl bg-surface-container-low p-3.5 flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-tertiary">poll</span>
+            Community Choice: Which engine will you render in?
+          </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">512 votes</span>
+</div>
+<!-- Poll Options -->
+<div class="flex flex-col gap-2" id="pollOptionsContainer">
+<!-- Option 1 (Selected state preview) -->
+<div class="poll-option relative overflow-hidden rounded-xl bg-surface-container-high p-2.5 cursor-pointer active:scale-[0.99] transition-all" data-votes="48">
+<div class="absolute inset-0 bg-primary/20 w-[48%] transition-all duration-500 rounded-r-none"></div>
+<div class="relative z-10 flex items-center justify-between font-label-md text-label-md text-on-surface">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-primary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                Blender 4.2 (Cycles Next)
+              </span>
+<span class="font-headline-sm text-headline-sm text-primary">48%</span>
+</div>
+</div>
+<!-- Option 2 -->
+<div class="poll-option relative overflow-hidden rounded-xl bg-surface-container-high p-2.5 cursor-pointer active:scale-[0.99] transition-all" data-votes="27">
+<div class="absolute inset-0 bg-surface-variant/40 w-[27%] transition-all duration-500 rounded-r-none"></div>
+<div class="relative z-10 flex items-center justify-between font-label-md text-label-md text-on-surface">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">radio_button_unchecked</span>
+                Unreal Engine 5.4 (Substrate)
+              </span>
+<span class="text-on-surface-variant">27%</span>
+</div>
+</div>
+<!-- Option 3 -->
+<div class="poll-option relative overflow-hidden rounded-xl bg-surface-container-high p-2.5 cursor-pointer active:scale-[0.99] transition-all" data-votes="16">
+<div class="absolute inset-0 bg-surface-variant/40 w-[16%] transition-all duration-500 rounded-r-none"></div>
+<div class="relative z-10 flex items-center justify-between font-label-md text-label-md text-on-surface">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">radio_button_unchecked</span>
+                Octane Standalone 2024
+              </span>
+<span class="text-on-surface-variant">16%</span>
+</div>
+</div>
+<!-- Option 4 -->
+<div class="poll-option relative overflow-hidden rounded-xl bg-surface-container-high p-2.5 cursor-pointer active:scale-[0.99] transition-all" data-votes="9">
+<div class="absolute inset-0 bg-surface-variant/40 w-[9%] transition-all duration-500 rounded-r-none"></div>
+<div class="relative z-10 flex items-center justify-between font-label-md text-label-md text-on-surface">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">radio_button_unchecked</span>
+                WebGPU / Three.js Native
+              </span>
+<span class="text-on-surface-variant">9%</span>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm pt-1">
+<span>Poll ends in 2 days</span>
+<button class="text-primary font-label-sm text-label-sm hover:underline">View Breakdown</button>
+</div>
+</div>
+<!-- Card Action Engagement Bar -->
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-3">
+<button class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm active:scale-95 transition-all" id="likeReactionBtn">
+<span class="material-symbols-outlined text-[16px] text-tertiary" style="font-variation-settings: 'FILL' 1;">favorite</span>
+<span class="text-on-surface" id="likeCounter">148</span>
+</button>
+<button class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm active:scale-95 transition-all hover:text-on-surface">
+<span class="material-symbols-outlined text-[16px]">forum</span>
+<span>42</span>
+</button>
+<button class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm active:scale-95 transition-all hover:text-on-surface">
+<span class="material-symbols-outlined text-[16px]">share</span>
+<span>Share</span>
+</button>
+</div>
+<button aria-label="Tip Creator" class="w-8 h-8 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface">
+<span class="material-symbols-outlined text-[18px]">volunteer_activism</span>
+</button>
+</div>
+</article>
+<!-- Additional Member Highlight Post -->
+<article class="rounded-2xl bg-surface-container p-4 shadow-md flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2.5">
+<div class="w-9 h-9 rounded-full bg-surface-variant p-0.5">
+<img class="w-full h-full rounded-full object-cover" data-alt="Cyberpunk style avatar portrait with holographic visor and soft reflections of neon violet cityscapes." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzh2aBaCX0BCkNVjtahzCG0mvgwZ0bN83H38z9q1Nes5CTQxurxcmRqD5eLP_ZRA26V7yEPCjM5tHAh7GCeCyWeQNo-GgCrJtRcfUrbhduPQ2GxkONymXVTX_Dkcvluh-WVYCYUdEarBwYRrfiIvSpYCHCyA6PUTf0m4wYamCy_jkR24AnqMJei3rlkd-bNQ301F7HvPBP6R-vRK8AvrPhv9c0mmDXWDccqYEtfSq3iDVfsFqqufczeQ"/>
+</div>
+<div>
+<div class="flex items-center gap-1.5">
+<span class="font-label-md text-label-md text-on-surface">Aria Chen</span>
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+</div>
+<div class="flex items-center gap-1.5 text-on-surface-variant font-body-sm text-body-sm">
+<span>@aria_render</span>
+<span>•</span>
+<span>5h ago</span>
+</div>
+</div>
+</div>
+<button aria-label="Post Options" class="w-8 h-8 rounded-full flex items-center justify-center text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px]">more_vert</span>
+</button>
+</div>
+<div class="flex flex-col gap-2">
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">
+          WIP volumetric haptic sphere for Vision Pro. Baked normal passes directly from Houdini. Loving how responsive the spatial anchor latency feels!
+        </p>
+</div>
+<!-- Media Visual -->
+<div class="relative w-full h-52 rounded-xl overflow-hidden bg-surface-container-highest shadow-md">
+<div class="w-full h-full bg-cover bg-center" data-alt="Photorealistic 3D render of a luminous iridescent glass orb floating above a sleek dark brushed titanium table with caustic lighting refraction and ambient neon cyan reflections." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAuN1v3CVHPoFRDIWaYL6NndFFpU3oitEpIqPGEIx38Kjef8knV1EcQSeE46-WDS-foKgU6kTusV7RWdtbwaS3OQ1UKRjdTCa8ytz0I5u971DjFlhpYekKTmEeO9m2OUGx6EBTeAUAR1PRTbcSgMr9gH-Xn7bXrvRqkBeeDa5Ae7yyPoxgAbfo0g8O7EsEWrf7YV-g-Aq0j9hw0il3Tyhz7JjT_irYMQHaqq8z4yGw2IH-6h6Zk2F3woQ')">
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent flex items-end p-3">
+<span class="px-2.5 py-1 rounded-md bg-surface-container-lowest/80 backdrop-blur-md text-on-surface font-label-sm text-[11px] flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-secondary">3d_rotation</span>
+              Interactive Viewport (Touch to orbit)
+            </span>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-3">
+<button class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm active:scale-95 transition-all">
+<span class="material-symbols-outlined text-[16px] text-tertiary">favorite</span>
+<span>89</span>
+</button>
+<button class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm active:scale-95 transition-all">
+<span class="material-symbols-outlined text-[16px]">forum</span>
+<span>19</span>
+</button>
+</div>
+<button class="text-secondary font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">file_download</span>
+<span>Assets (.usdz)</span>
+</button>
+</div>
+</article>
+</div>
+<!-- Floating Action Button: Post to Space -->
+<div class="fixed bottom-20 right-4 z-40">
+<button aria-label="Post to Motion &amp; Spatial Guild" class="flex items-center gap-2 h-12 pl-4 pr-5 rounded-full bg-gradient-to-r from-primary to-primary-container text-on-primary shadow-[0_8px_24px_rgba(124,58,237,0.5)] active:scale-95 hover:shadow-[0_12px_28px_rgba(124,58,237,0.65)] transition-all" id="createPostFab">
+<span class="material-symbols-outlined text-[22px] font-bold">edit_square</span>
+<span class="font-label-lg text-label-lg font-bold">Post</span>
+</button>
+</div>
+<!-- Interactive Feedback Toast (Hidden by default) -->
+<div class="fixed top-20 left-1/2 -translate-x-1/2 z-50 px-4 py-2 rounded-full bg-surface-bright text-on-surface font-label-md text-label-md shadow-xl flex items-center gap-2 opacity-0 pointer-events-none transition-all duration-300" id="toastNotification">
+<span class="material-symbols-outlined text-secondary text-[18px]">verified</span>
+<span id="toastMsg">Action confirmed</span>
+</div>
+<script>
+    (function () {
+      // Toast notification helper
+      const toast = document.getElementById('toastNotification');
+      const toastMsg = document.getElementById('toastMsg');
+      function showToast(message) {
+        if (!toast || !toastMsg) return;
+        toastMsg.textContent = message;
+        toast.classList.remove('opacity-0', 'pointer-events-none');
+        toast.classList.add('opacity-100', '-translate-y-1');
+        setTimeout(() => {
+          toast.classList.add('opacity-0', 'pointer-events-none');
+          toast.classList.remove('opacity-100', '-translate-y-1');
+        }, 2200);
+      }
+
+      // Membership toggle
+      const membershipBtn = document.getElementById('membershipBtn');
+      let isJoined = true;
+      if (membershipBtn) {
+        membershipBtn.addEventListener('click', () => {
+          isJoined = !isJoined;
+          if (isJoined) {
+            membershipBtn.innerHTML = `
+              <span class="material-symbols-outlined text-[16px] text-primary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+              <span>Joined</span>
+            `;
+            membershipBtn.classList.remove('bg-primary-container', 'text-on-primary-container');
+            membershipBtn.classList.add('bg-surface-container-high', 'text-on-surface');
+            showToast('Rejoined Motion & Spatial Guild');
+          } else {
+            membershipBtn.innerHTML = `
+              <span class="material-symbols-outlined text-[16px]">add</span>
+              <span>Join</span>
+            `;
+            membershipBtn.classList.remove('bg-surface-container-high', 'text-on-surface');
+            membershipBtn.classList.add('bg-primary-container', 'text-on-primary-container');
+            showToast('Left Space');
+          }
+        });
+      }
+
+      // Like counter micro-interaction
+      const likeBtn = document.getElementById('likeReactionBtn');
+      const likeCounter = document.getElementById('likeCounter');
+      let liked = true;
+      let count = 148;
+      if (likeBtn && likeCounter) {
+        likeBtn.addEventListener('click', () => {
+          liked = !liked;
+          count = liked ? count + 1 : count - 1;
+          likeCounter.textContent = count;
+          const icon = likeBtn.querySelector('.material-symbols-outlined');
+          if (icon) {
+            icon.style.fontVariationSettings = liked ? "'FILL' 1" : "'FILL' 0";
+            icon.classList.toggle('text-tertiary', liked);
+          }
+        });
+      }
+
+      // Navigation tab switching
+      const tabs = document.querySelectorAll('.space-nav-tab');
+      tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          tabs.forEach(t => {
+            t.className = 'space-nav-tab flex-shrink-0 px-4 py-1.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md active:scale-95 transition-colors hover:text-on-surface flex items-center gap-1.5';
+          });
+          tab.className = 'space-nav-tab flex-shrink-0 px-4 py-1.5 rounded-full bg-gradient-to-r from-primary-container to-secondary-container text-white font-label-md text-label-md shadow-sm active:scale-95 transition-transform flex items-center gap-1.5';
+          showToast(`Switched to ${tab.getAttribute('data-tab')} view`);
+        });
+      });
+
+      // Poll voting micro-interaction
+      const pollOptions = document.querySelectorAll('.poll-option');
+      pollOptions.forEach(option => {
+        option.addEventListener('click', () => {
+          pollOptions.forEach(opt => {
+            const icon = opt.querySelector('.material-symbols-outlined');
+            if (icon) {
+              icon.textContent = 'radio_button_unchecked';
+              icon.classList.remove('text-primary');
+              icon.classList.add('text-on-surface-variant');
+            }
+          });
+          const activeIcon = option.querySelector('.material-symbols-outlined');
+          if (activeIcon) {
+            activeIcon.textContent = 'check_circle';
+            activeIcon.classList.remove('text-on-surface-variant');
+            activeIcon.classList.add('text-primary');
+          }
+          showToast('Vote registered on-chain');
+        });
+      });
+
+      // Tune-in stage listener
+      const tuneInBtn = document.getElementById('tuneInBtn');
+      if (tuneInBtn) {
+        tuneInBtn.addEventListener('click', () => {
+          showToast('Connected to Stage 04 Audio Stream 🎙️');
+        });
+      }
+
+      // Starter kit download trigger
+      const downloadBtn = document.getElementById('downloadStarterBtn');
+      if (downloadBtn) {
+        downloadBtn.addEventListener('click', () => {
+          showToast('Downloading Glass_Caustic_Base.blend (34.2 MB)...');
+        });
+      }
+
+      // FAB action
+      const createPostFab = document.getElementById('createPostFab');
+      if (createPostFab) {
+        createPostFab.addEventListener('click', () => {
+          showToast('Opening Space Composer...');
+        });
+      }
+    })();
+  </script>
+</div></main><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface/85 backdrop-blur-xl shadow-[0_-8px_32px_rgba(0,0,0,0.5)]" data-active-classes="text-primary font-label-md"><div class="relative flex items-center justify-around h-16 px-space-xs"><a class="flex flex-col items-center justify-center min-w-[56px] h-14 gap-1 text-on-surface-variant hover:text-on-surface transition-all duration-200" data-path="home-feed" href="#"><span class="material-symbols-outlined text-[24px]">dynamic_feed</span><span class="font-label-sm text-label-sm">Home</span></a><a class="flex flex-col items-center justify-center min-w-[56px] h-14 gap-1 text-on-surface-variant hover:text-on-surface transition-all duration-200" data-path="explore-discover" href="#"><span class="material-symbols-outlined text-[24px]">explore</span><span class="font-label-sm text-label-sm">Explore</span></a><div class="relative flex items-center justify-center -mt-6"><a aria-label="Create" class="w-14 h-14 rounded-full flex items-center justify-center bg-gradient-to-tr from-primary-container via-[#6366f1] to-secondary shadow-[0_0_24px_rgba(124,58,237,0.5)] active:scale-95 transition-transform text-white" data-path="create-studio" href="#"><span class="material-symbols-outlined text-[28px] font-bold">add</span></a></div><a class="relative flex flex-col items-center justify-center min-w-[56px] h-14 gap-1 text-on-surface-variant hover:text-on-surface transition-all duration-200" data-path="chat-hub" href="#"><div class="relative flex items-center justify-center"><span class="material-symbols-outlined text-[24px]">chat_bubble</span><span class="absolute -top-1 -right-2 px-1.5 py-0.2 rounded-full bg-tertiary text-on-tertiary font-label-sm text-[10px] leading-tight font-bold shadow-[0_0_8px_rgba(255,176,205,0.4)]">3</span></div><span class="font-label-sm text-label-sm">Chat</span></a><a aria-current="page" class="flex flex-col items-center justify-center min-w-[56px] h-14 gap-1 transition-all duration-200 text-primary font-label-md" data-path="spaces-profile" href="#"><span class="material-symbols-outlined text-[24px]">workspaces</span><span class="font-label-sm text-label-sm">Spaces</span></a></div></nav></body></html>

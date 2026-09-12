@@ -1,0 +1,13 @@
+{
+  "name": "connectx",
+  "private": true,
+  "workspaces": [
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @connectx/web",
+    "build": "npm run build -w @connectx/web",
+    "lint": "npm run lint -w @connectx/web",
+    "preview": "npm run preview -w @connectx/web"
+  }
+}
